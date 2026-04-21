@@ -1,5 +1,4 @@
-# APP6
-## Theme Park 
-
 ### Synopsis
-[This is a project.]
+[This application focuses on a scenario where Universal Orlando wants to update their roller coaster safety systems. They
+have recently decided to go for a real-time systems approach where timing and determinism are important. 
+Particularly, they see this as crucial for emergency brake systems that need to have exact timing and to have multiple points of warning for critical speeds. The green LED does heartbeat based flashing to ensure timing. The speed sensor trakcs current speed and turns on the yellow LED when it reaches past a 30 m/s threshold. The red LED lights up when the emergency stop is turned on, whether on the web server or from the physical button.]
